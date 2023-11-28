@@ -1,0 +1,20 @@
+IN other language the memory management is done by manually but in go the memory allocation and deallocation is happens automatically
+
+In the memory management basically we are using new() and make() method 
+
+                     new()                             |               make()
+                    * allocation of memory and         | * allocation of memeory and initilization
+                     no initilization                     | *  you will get memory address
+                    * you will get memeory address     | * non-zeroed storage
+                    * zeroed storage                   |
+             * zeroed storage menas we can't 
+             put any data                              |  * non-zeroed storage means we can put data
+                                                       |
+                                                       |
+                                                       |
+
+
+Garbage collection happens automatically
+out of the scope or nil
+
+runtime is the package in which we can get the cpu usage stup like that
