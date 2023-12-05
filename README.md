@@ -17,3 +17,6 @@ PerformGetRequest: This is the name of the function. It takes a URL as a paramet
 The first returned value is a string, representing the response body of the HTTP GET request.
 
 The second returned value is an error. If everything goes well, this will be nil. If an error occurs during the execution of the function, it will be a non-nil error.
+
+
+Converting interger into string i.e string conversion -- strconv  is the package
